@@ -1,4 +1,4 @@
- body {
+body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
@@ -16,7 +16,13 @@
   }
   
   .text-primary {
-    color: #fed136 !important;
+    color: #ffde73 !important;
+  }
+  .text-secondary {
+    color: #92ccff !important;
+  }
+  .text-tertiary {
+    color: #ff7a7a !important;
   }
   
   h1,
@@ -67,8 +73,12 @@
   .btn-primary {
     background-color: #fed136;
     border-color: #fed136;
+    
   }
-  
+  .btn-secondary {
+    background-color:rgba(0,0,0, 0.5);
+    font-size: 12px;
+  }  
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #fec810 !important;
     border-color: #fec810 !important;
@@ -161,7 +171,7 @@
   header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/kidexplore5.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -214,7 +224,8 @@
     margin: 15px 0;
     text-transform: none;
   }
-  
+
+
   #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -681,14 +692,103 @@
   .ml4 {
     position: relative;
     font-weight: 900;
-    font-size: 4.5em;
+    font-size: 6.5em;
+    bottom: 150px
   }
   .ml4 .letters {
     position: absolute;
     margin: auto;
+    color: #fed136;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     left: 0;
     top: 0.3em;
     right: 0;
     opacity: 0; 
-  }
-  
+    }
+
+  h1.ml8 {
+      font-weight: 900;
+      font-size: 4.5em;
+      color: #fff;
+      width: 3em;
+      height: 3em;
+      float: left; 
+        
+      
+    }
+    
+  .ml8 .letters-container {
+      position: absolute;
+      left: 0;
+      right: 1100px;
+      margin: auto;
+      top: -10px;
+      bottom: 0;
+      height: 1em;
+      font-size: 20px;
+      line-height: 18px;
+    }
+    
+  .ml8 .letters {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+      line-height: 0.7em;
+      right: -0.2em;
+      top: -0.5em;
+    }
+    
+  .ml8 .bang {
+      font-size: 1.4em;
+      top: auto;
+      left: -0.06em;
+    }
+    
+  .ml8 .circle {
+      position: absolute;
+      left: 0;
+      right: 1100px;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+    }
+    
+  .ml8 .circle-white {
+      width: 3em;
+      height: 3em;
+      border: 2px dashed white;
+      border-radius: 2em;
+    }
+    
+    .ml8 .circle-dark {
+      width: 3.2em;
+      height: 3.2em;
+      background-color: #fed136;
+      border-radius: 3em;
+      z-index: 1;
+    }
+    
+  .ml8 .circle-dark-dashed {
+      border-radius: 2.4em;
+      background-color: transparent;
+      border: 2px dashed #fed136;
+      width: 3.3em;
+      height: 3.3em;
+      left:85px;
+    }
+
+
+#testimonial{
+  text-align: center;
+}
+    
+#testimonial p.customer{
+  color:black;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#testimonial p{
+  color:black;
+  font-size: 100px;
+}
