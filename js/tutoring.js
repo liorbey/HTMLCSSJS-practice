@@ -50,7 +50,6 @@
   })(jQuery); // End of use strict
   
 
-  tippy('#mybutton', {
-    content: "I'm a Tippy tooltip!",
-  })
   
+
+
