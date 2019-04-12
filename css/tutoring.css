@@ -1141,3 +1141,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+  .child-paths{
+    bottom: 50px;
+    left:120px;
+    padding: 5%;
+
+  }
