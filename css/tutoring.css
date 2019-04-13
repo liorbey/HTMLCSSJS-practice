@@ -844,7 +844,8 @@ body {
 /* Columns */
 .left-column {
   width: 65%;
-  margin-top: 100px;
+  margin-top: 0px;
+  right: -100px;
   position: relative;
 }
 
@@ -934,10 +935,19 @@ body {
   border: 2px solid #FFFFFF;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
-
+.color-choose input[type="radio"]#gray + label span {
+  background-color:gray;
+}
+.color-choose input[type="radio"]#purple + label span {
+  background-color:purple;
+}
+.color-choose input[type="radio"]#green + label span {
+  background-color:green;
+}
 .color-choose input[type="radio"]#red + label span {
   background-color: #C91524;
 }
+
 .color-choose input[type="radio"]#blue + label span {
   background-color: #314780;
 }
