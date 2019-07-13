@@ -194,7 +194,7 @@ body {
   }
   
   header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
@@ -214,7 +214,7 @@ body {
       font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
+      font-size: 50px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
@@ -275,7 +275,7 @@ body {
     }
     header.mastheadpython .intro-text .intro-heading {
       color: white;
-      font-size: 75px;
+      font-size: 50px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 20px;
@@ -335,7 +335,7 @@ body {
     }
     header.mastheadrobotics .intro-text .intro-heading {
       color: white;
-      font-size: 75px;
+      font-size: 50px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 20px;
@@ -394,131 +394,15 @@ body {
       }
       header.mastheaddesign .intro-text .intro-heading {
         color: white;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 20px;
         font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
       }
     }
-      /* header for webdev */
 
-  img.mastheadwebdev{
-    size: 10px;
-  }
-  header.mastheadwebdev {
-    text-align: center;
-    color: white;
-    background-image: url("../img/kidexplore.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-  }
-  
-  header.mastheadwebdev .intro-text {
-    padding-top: 200px;
-    padding-bottom: 50px;
-  }
-  
-  header.mastheadwebdev .intro-text .intro-lead-in {
-    color: white;
-    font-size: 12px;
-    font-style: bold;
-    line-height: 22px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  
-  header.mastheadwebdev .intro-text .intro-heading {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-    margin-bottom: 25px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  
-  @media (min-width: 768px) {
-    header.mastheadwebdev .intro-text {
-      padding-top: 300px;
-      padding-bottom: 100px;
-    }
-    header.mastheadwebdev .intro-text .intro-lead-in {
-      background-color:rgba(254, 209, 54, 0.9);
-      font-size: 20px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 55px;
-      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-    header.mastheadwebdev .intro-text .intro-heading {
-      color: white;
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      margin-bottom: 20px;
-      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-  }
-    /* header for gamedev */
 
-    img.mastheadgamedev{
-      size: 10px;
-    }
-    header.mastheadgamedev {
-      text-align: center;
-      color: white;
-      background-image: url("../img/kidexplore.jpeg");
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: center center;
-      background-size: cover;
-    }
-    
-    header.mastheadgamedev .intro-text {
-      padding-top: 200px;
-      padding-bottom: 50px;
-    }
-    
-    header.mastheadgamedev .intro-text .intro-lead-in {
-      color: white;
-      font-size: 12px;
-      font-style: bold;
-      line-height: 22px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-    
-    header.mastheadgamedev .intro-text .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
-      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
-    
-    @media (min-width: 768px) {
-      header.mastheadgamedev .intro-text {
-        padding-top: 300px;
-        padding-bottom: 100px;
-      }
-      header.mastheadgamedev .intro-text .intro-lead-in {
-        background-color:rgba(254, 209, 54, 0.9);
-        font-size: 20px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 55px;
-        font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-      }
-      header.mastheadgamedev .intro-text .intro-heading {
-        color: white;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 20px;
-        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-      }
-    }
         /* header for math */
 
         img.mastheadmath{
@@ -571,7 +455,7 @@ body {
           }
           header.mastheadmath .intro-text .intro-heading {
             color: white;
-            font-size: 75px;
+            font-size: 50px;
             font-weight: 700;
             line-height: 75px;
             margin-bottom: 20px;
@@ -1707,4 +1591,40 @@ body {
     max-width: 100%;
     height: auto;
     width: auto\9;
-    }  
+    }
+    
+    #w {
+      display: block;
+      width: 950px;
+      margin: 0 auto;
+    }
+    
+    #content {
+      display: block;
+      width: 100%;
+      background: #fff;
+      padding: 25px 20px;
+      padding-bottom: 35px;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    }
+    
+    /** gif image list **/
+    #giflist {
+    
+    }
+    
+    #giflist li {
+      display: block;
+      float: left;
+      margin-right: 35px;
+      margin-bottom: 40px;
+    }
+    
+    /** clearfix **/
+    .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+    .clearfix { display: inline-block; }
+     
+    html[xmlns] .clearfix { display: block; }
+    * html .clearfix { height: 1%; }
